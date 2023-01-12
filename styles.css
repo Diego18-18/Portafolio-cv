@@ -591,6 +591,13 @@ progress::-moz-progress-bar {
   background-color: var(--second-color);
 }
 
+.footer aside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.2rem;
+}
+
 .header {
   position: fixed;
   left: 0;
@@ -673,6 +680,10 @@ progress::-moz-progress-bar {
 
 .portfolio-card-info h4 {
   color: var(--third-color);
+}
+
+.portfolio-card-info p {
+  font-weight: bold;
 }
 
 .portfolio-modal {
